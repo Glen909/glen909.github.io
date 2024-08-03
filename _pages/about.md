@@ -180,11 +180,26 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 
 <div>
 
------------------------------------------
+-------------------------------------------------------------------------------------------
 
 </div>
-Last updated on: 2024.08.02.
-<div>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<span id="busuanzi_container_site_pv">The total number of visits to this site is <span id="busuanzi_value_site_pv"></span>.</span>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">Visitor Counter: <span id="busuanzi_value_site_pv"></span></span>
+    <span id="last-updated-time" style="margin-left: 20px;">
+      Last updated on: <span id="current-date"></span>
+    </span>
+  </div>
 </div>
+
+<script>
+  function updateCurrentDate() {
+    const currentDate = new Date();
+    const formattedDate = currentDate.getFullYear() + '.' + 
+                          ('0' + (currentDate.getMonth() + 1)).slice(-2) + '.' + 
+                          ('0' + currentDate.getDate()).slice(-2);
+    document.getElementById('current-date').textContent = formattedDate;
+  }
+  updateCurrentDate();
+</script>
