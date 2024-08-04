@@ -188,18 +188,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span id="busuanzi_container_site_pv">Visitor Counter: <span id="busuanzi_value_site_pv"></span></span>
     <span id="last-updated-time" style="margin-left: 20px;">
-      Last updated on: <span id="current-date"></span>
+      Last updated on: 2024.8.4
     </span>
   </div>
 </div>
-
-<script>
-  function updateCurrentDate() {
-    const currentDate = new Date();
-    const formattedDate = currentDate.getFullYear() + '.' + 
-                          ('0' + (currentDate.getMonth() + 1)).slice(-2) + '.' + 
-                          ('0' + currentDate.getDate()).slice(-2);
-    document.getElementById('current-date').textContent = formattedDate;
-  }
-  updateCurrentDate();
-</script>
