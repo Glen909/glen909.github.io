@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🧐 About Me
-Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monash.edu/), advised by [Dr. Lim Chern Hong](https://www.monash.edu.my/it/staff/academic/dr-lim-chern-hong). Before that, I got my bachelor degree from [Hebei University of Science and Technology](https://english.hebust.edu.cn/), under the supervision of [Dr. Su Jingfang](https://xxxy.web.hebust.edu.cn/szdw/zhuanrenjs/wlaqx/sujingfang.htm).
+Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monash.edu/), advised by [Dr. Lim Chern Hong](https://www.monash.edu.my/it/staff/academic/dr-lim-chern-hong). I will graduate in July 2025. Before that, I got my bachelor degree from [Hebei University of Science and Technology](https://english.hebust.edu.cn/), under the supervision of [Dr. Su Jingfang](https://xxxy.web.hebust.edu.cn/szdw/zhuanrenjs/wlaqx/sujingfang.htm).
 
 
 [//]: # (From March 2023 to November 2023, I worked as a Research Assistant at the [ASTAPLE lab]&#40;https://www.astaple.com/&#41; of Hong Kong Polytechnic University, under the supervision of [Prof. Haibo Hu]&#40;https://haibohu.org/&#41; and [Dr. Qingqing Ye]&#40;https://www.qingqingye.net/&#41;. )
