@@ -52,7 +52,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 
 [FedBChain: A Blockchain-enabled Federated Learning Framework for Improving DeepConvLSTM with Comparative Strategy Insights](https://arxiv.org/abs/2407.21282)
 
-**Gaoxuan Li**, Chern Hong Lim, Qiyao Ma, Xinyu Tang, Hwa Hui Tew
+**Gaoxuan Li**, Chern Hong Lim, Qiyao Ma, Xinyu Tang, Hwa Hui Tew, Fan Ding, and Xuewen Luo
 <div class="scrollable">
 <ul>
   <li>Achievements:
