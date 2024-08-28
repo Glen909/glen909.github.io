@@ -27,7 +27,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 * Multimodal Federated Learning.
 * Differential Privacy.
 * Affective Computing.
-* Ubiquitous Computing.
+* Human Activity Recognization.
 
 
 # 🔥 News
@@ -41,11 +41,39 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 <div class="scrollable">
  <ul>
 <li><strong>2024.07</strong>: &nbsp;🎉 One first author paper is accepted by IEEE SMC 2024. </li>
-<li><strong>2024.06</strong>: &nbsp;🎉 I have joined the <a href="https://www.monash.edu/it/current-students/enrolment/honours-and-minor-thesis">Research Stream</a> at Monash University Malaysia, under the supervision of <a href="https://www.monash.edu.my/it/staff/academic/dr-lim-chern-hong">Dr. Lim Chern Hong</a>, focusing on privacy in the LLM. </li>
+<li><strong>2024.06</strong>: &nbsp;🎉 I have joined the <a href="https://www.monash.edu/it/current-students/enrolment/honours-and-minor-thesis">Research Stream</a> at Monash University Malaysia, under the supervision of <a href="https://www.monash.edu.my/it/staff/academic/dr-lim-chern-hong">Dr. Lim Chern Hong</a>, focusing on privacy in the Federated Learning. </li>
 </ul>
 </div>
 
-# 📝 Publications 
+# 📝 Main Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICASSP 2025</div><img src='images/pic_arc.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Adaptive MIC-Based Noise Injection in Federated Learning for Privacy-Preserving Surgical Activity Analysis](https://2025.ieeeicassp.org/)
+
+**Gaoxuan Li**, Chern Hong Lim, Jingwen Hu
+<div class="scrollable">
+<ul>
+  <li>First Author (Received and Under Review by <b>IEEE ICASSP 2025</b>)</li>
+  <li>Achievements:
+    <ul>
+      <li>Developed the FedMIC framework, enhancing model parameter security in federated learning through adaptive noise injection.</li>
+      <li>Introduced dynamic noise adjustment based on Maximal Information Coefficient, maintaining high accuracy while protecting privacy.</li>
+    </ul>
+  </li>
+  <li>Responsibilities:
+    <ul>
+      <li>Researched and optimized the relationship between noise and model parameters.</li>
+      <li>Designed and implemented the FedMIC framework.</li>
+      <li>Conducted comparative tests, showing improved security and accuracy.</li>
+      <li>Ensured data security during federated training using adaptive noise mechanisms.</li>
+    </ul>
+  </li>
+</ul>
+</div>
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SMC 2024</div><img src='images/1_500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -55,6 +83,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 **Gaoxuan Li**, Chern Hong Lim, Qiyao Ma, Xinyu Tang, Hwa Hui Tew, Fan Ding, and Xuewen Luo
 <div class="scrollable">
 <ul>
+  <li>First Author (Accepted by <b>IEEE SMC 2024</b>)</li>
   <li>Achievements:
     <ul>
       <li>Achieved significant improvements in Precision, Recall, and F1-score (4%+ on average) across three real-world datasets.</li>
@@ -119,6 +148,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 - *2016.09 - 2020.06*, Bachelor of Network Engineering, Hebei University of Science and Technology, Shi Jiazhuang, China.
 
 # 🎖 Honors and Awards
+- Student Travel Grant by IEEE SMC Conference, 2024
 - Outstanding Undergraduate Thesis, 2020
 - Four-Time Recipient of Provincial-Level Awards, 2016 - 2020
 - Seven-Time Recipient of School-Level Awards, 2016 - 2020
@@ -188,7 +218,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span id="busuanzi_container_site_pv">Visitor Counter: <span id="busuanzi_value_site_pv"></span></span>
     <span id="last-updated-time" style="margin-left: 20px;">
-      Last updated on: 2024.8.4
+      Last updated on: 2024.8.28
     </span>
   </div>
 </div>
