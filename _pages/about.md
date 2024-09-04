@@ -52,7 +52,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 
 [Adaptive MIC-Based Noise Injection in Federated Learning for Privacy-Preserving Surgical Activity Analysis](https://2025.ieeeicassp.org/)
 
-**Gaoxuan Li**, Chern Hong Lim, Jingwen Hu
+**Gaoxuan Li**, Hwa Hui Tew, Jingwen Hu, Litong Liu, Chern Hong Lim
 <div class="scrollable">
 <ul>
   <li>First Author (Received and Under Review by <b>IEEE ICASSP 2025</b>)</li>
