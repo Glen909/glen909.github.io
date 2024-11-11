@@ -306,7 +306,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 
 <div class="progress-container">
     <!-- Distance info displayed above the progress bar -->
-    <div class="distance-info">33 km / 41,600 km (Running Target)</div>
+    <div class="distance-info">445 km / 41,600 km (Running Target)</div>
 
     <div class="horizontal-bar">
         <!-- Start age -->
@@ -328,6 +328,89 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
     <!-- New line for age label -->
     <div style="margin-left: -33%;font-size: 14px;margin-top: 5px;">26 yrs</div>
 </div>
+
+<style>
+    /* 容器样式，确保水平滚动 */
+    .gallery-container {
+        display: flex;
+        overflow-x: auto; /* 横向滚动 */
+        white-space: nowrap; /* 防止图片换行 */
+        padding: 20px;
+        scroll-behavior: smooth; /* 滚动平滑 */
+    }
+
+    /* 每个图片的样式 */
+    .gallery-container img {
+        width: 300px; /* 图片宽度，可根据需要调整 */
+        height: auto; /* 自动调整高度 */
+        margin-right: 10px; /* 图片间隔 */
+        border-radius: 10px; /* 圆角 */
+        transition: transform 0.3s; /* 放大效果过渡 */
+    }
+
+    /* 图片悬停时放大效果 */
+    .gallery-container img:hover {
+        transform: scale(1.05);
+    }
+
+    /* 隐藏滚动条 */
+    .gallery-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* 进度条容器 */
+    .progress-container-img {
+        width: 100%;
+        height: 8px;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    /* 进度条 */
+    .progress-bar-img {
+        height: 100%;
+        width: 0; /* 初始宽度 */
+        background-color: #4caf50;
+        transition: width 0.1s; /* 平滑过渡 */
+    }
+</style>
+<h2>Running Image Gallery 
+    <a href="https://drive.google.com/drive/folders/1PXAIcNtqblzK79AkCed8d7CQRk8c6Rhg?usp=sharing" 
+       title="Explore High-Quality Images" 
+       style="font-size: 10px; margin-left: 10px; text-decoration: none; color: #007bff;">
+       (View High-Quality Images / Monthly Update)
+    </a>
+</h2>
+
+
+<div class="gallery-container" id="gallery"></div>
+
+<div class="progress-container-img">
+    <div class="progress-bar-img" id="progressBar"></div>
+</div>
+
+<script>
+    const gallery = document.getElementById('gallery');
+    const progressBar = document.getElementById('progressBar');
+    
+    // 循环生成 136 张图片
+    for (let i = 1; i <= 134; i++) {
+        const img = document.createElement('img');
+        img.src = `running/${i}.jpg`;  // 设置图片路径为 1.jpg, 2.jpg, ..., 136.jpg
+        img.alt = `Image ${i}`;
+        gallery.appendChild(img);
+    }
+
+    // 更新进度条
+    gallery.addEventListener('scroll', () => {
+        const scrollLeft = gallery.scrollLeft; // 当前滚动的距离
+        const maxScrollLeft = gallery.scrollWidth - gallery.clientWidth; // 最大滚动距离
+        const scrollPercentage = (scrollLeft / maxScrollLeft) * 100; // 计算滚动百分比
+        progressBar.style.width = `${scrollPercentage}%`; // 设置进度条宽度
+    });
+</script>
 -------------------------------------------------------------------------------------------
 
 
