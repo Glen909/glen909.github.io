@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 🧐 About Me
-Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monash.edu/), advised by [Dr. Lim Chern Hong](https://www.monash.edu.my/it/staff/academic/dr-lim-chern-hong). I will graduate in July 2025. Before that, I got my bachelor degree from [Hebei University of Science and Technology](https://english.hebust.edu.cn/), under the supervision of [Dr. Su Jingfang](https://xxxy.web.hebust.edu.cn/szdw/zhuanrenjs/wlaqx/sujingfang.htm).
+Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monash.edu/), advised by [Dr. Lim Chern Hong](https://www.monash.edu.my/it/staff/academic/dr-lim-chern-hong). I will graduate in Septe. 2025. Before that, I got my bachelor degree from [Hebei University of Science and Technology](https://english.hebust.edu.cn/), under the supervision of [Dr. Su Jingfang](https://xxxy.web.hebust.edu.cn/szdw/zhuanrenjs/wlaqx/sujingfang.htm).
 
 
 [//]: # (From March 2023 to November 2023, I worked as a Research Assistant at the [ASTAPLE lab]&#40;https://www.astaple.com/&#41; of Hong Kong Polytechnic University, under the supervision of [Prof. Haibo Hu]&#40;https://haibohu.org/&#41; and [Dr. Qingqing Ye]&#40;https://www.qingqingye.net/&#41;. )
@@ -26,8 +26,8 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 ### 🤔 Research Interests:
 * Multimodal Federated Learning.
 * Differential Privacy.
-* Affective Computing.
 * Human Activity Recognization.
+* Decentralized Finance & GNN.
 
 
 # 🔥 News
@@ -40,12 +40,40 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 
 <div class="scrollable">
  <ul>
+ <li><strong>2024.11</strong>: &nbsp;🎉 One first author paper is accepted by ICIT 2024. </li>
 <li><strong>2024.07</strong>: &nbsp;🎉 One first author paper is accepted by IEEE SMC 2024. </li>
 <li><strong>2024.06</strong>: &nbsp;🎉 I have joined the <a href="https://www.monash.edu/it/current-students/enrolment/honours-and-minor-thesis">Research Stream</a> at Monash University Malaysia, under the supervision of <a href="https://www.monash.edu.my/it/staff/academic/dr-lim-chern-hong">Dr. Lim Chern Hong</a>, focusing on privacy in the Federated Learning. </li>
 </ul>
 </div>
 
 # 📝 Main Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIT 2024</div><img src='images/defi.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Exploring GCN, GAT, and GIN Fusion for Illicit Transaction Classification in Cryptocurrency Networks](https://www.icit.org/index.html)
+
+**Gaoxuan Li**, Xinyu Tang
+<div class="scrollable">
+<ul>
+  <li>First Author (Accepted by <b>ICIT 2024</b>)</li>
+  <li>Achievements:
+    <ul>
+      <li>Achieved classification accuracy improvements of up to 2.9% over standalone GCN, GAT, and GIN models on the Elliptic Bitcoin dataset, reaching an accuracy of 97.17%.</li>
+      <li>Demonstrated the effectiveness of four novel fusion architectures—Triple Parallel Layer, Hierarchical Staging, Attention-Weighted Residual Fusion, and Multi-View Feature Aggregation—in enhancing illicit transaction classification.</li>
+    </ul>
+  </li>
+  <li>Responsibilities:
+    <ul>
+      <li>Developed and implemented four fusion models integrating GCN, GAT, and GIN to address limitations of single architectures in cryptocurrency networks.</li>
+      <li>Conducted quantitative and qualitative analyses, showing that the fusion models improve precision, recall, and F1-score for illegal transaction detection.</li>
+      <li>Analyzed and validated performance across diverse graph patterns, focusing on capturing multi-dimensional transaction features.</li>
+    </ul>
+  </li>
+</ul>
+</div>
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE ICASSP 2025</div><img src='images/pic_arc.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -144,7 +172,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 </div>
 
 # 📖 Educations
-- *2024.02 - 2025.06*, Master of Data Science, Monash University, Bandar Sunway, Malaysia. 
+- *2024.02 - 2025.09*, Master of Data Science, Monash University, Bandar Sunway, Malaysia. 
 - *2016.09 - 2020.06*, Bachelor of Network Engineering, Hebei University of Science and Technology, Shi Jiazhuang, China.
 
 # 🎖 Honors and Awards
@@ -185,34 +213,124 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
 
 # 🎧 Monthly Song
 <div>
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6QDGqo8VQ4vadIuHcTSXFK?utm_source=generator" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-</div>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0KWnRv3wxjltYVB3MqjNd2?utm_source=generator" width="50%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <style>
   .scrollable2 {
-    max-height: 80px; 
+    max-height: 150px; 
     overflow-y: scroll; 
   }
 </style>
 
 <div class="scrollable2">
- <ul>
-<li><strong>2024.07</strong>:&nbsp;《Where Did U Go》- G.E.M </li>
+<ul>
+<li><strong>2024.10</strong>:&nbsp;《Where Did U Go》- G.E.M </li>
+<li><strong>2024.09</strong>:&nbsp;《Rashomon》- Pear freezes tightly & Wiz_H张子豪 </li>
+<li><strong>2024.08</strong>:&nbsp;《Natural》- Imagine Dragons </li>
+<li><strong>2024.07</strong>:&nbsp;《Bad Guy》- Billie Eilish</li>
 <li><strong>2024.06</strong>:&nbsp;《日落大道》- 梁博 </li>
 <li><strong>2024.05</strong>:&nbsp;《我记得》- 赵雷 </li>
 <li><strong>2024.04</strong>:&nbsp;《Chalpter Seven》- Jay Chou </li>
 <li><strong>2024.03</strong>:&nbsp;《In The Name of Father》- Jay Chou </li>
 </ul>
 </div>
+</div>
 
-<div>
+# 🏃 Running
 
-<div>
+<style>
+    /* Container for the progress bar */
+    .progress-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 800px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+    }
 
+    /* Distance and target info displayed above the progress bar */
+    .distance-info {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: black;
+    }
+
+    /* Horizontal bar container */
+    .horizontal-bar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Start age on the left side */
+    .start-age {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    /* Progress bar background */
+    .progress-bar {
+        flex: 1;
+        height: 20px;
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* Actual progress fill */
+    .progress {
+        height: 100%;
+        width: 26%; /* Set this to the progress percentage based on age */
+        background-color: #08830f;
+        position: relative;
+    }
+
+    /* Running icon positioned at the end of the progress fill */
+    .runner-icon {
+        position: absolute;
+        top: 50%;
+        right: -10px; /* Adjusts the position to slightly outside the progress bar */
+        transform: translateY(-50%) scaleX(-1); /* Center align vertically and flip the icon */
+        font-size: 20px;
+    }
+
+    /* End label */
+    .end-age {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+</style>
+
+<div class="progress-container">
+    <!-- Distance info displayed above the progress bar -->
+    <div class="distance-info">33 km / 41,600 km (Running Target)</div>
+
+    <div class="horizontal-bar">
+        <!-- Start age -->
+        <div class="start-age">Start: 22 Nov. 2023</div>
+        
+        <!-- Progress bar container -->
+        <div class="progress-bar">
+            <!-- Progress fill inside the bar -->
+            <div class="progress">
+                <!-- Runner icon at the end of the progress fill -->
+                <div class="runner-icon">🏃</div>
+            </div>
+        </div>
+        
+        <!-- End label -->
+        <div class="end-age">Until Unable to Run 💪💪💪</div>
+    </div>
+
+    <!-- New line for age label -->
+    <div style="margin-left: -33%;font-size: 14px;margin-top: 5px;">26 yrs</div>
+</div>
 -------------------------------------------------------------------------------------------
 
-</div>
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
