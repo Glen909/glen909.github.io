@@ -336,7 +336,7 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span id="busuanzi_container_site_pv">Visitor Counter: <span id="busuanzi_value_site_pv"></span></span>
     <span id="last-updated-time" style="margin-left: 20px;">
-      Last updated on: 2024.8.28
+      Last updated on: 2024.11.11
     </span>
   </div>
 </div>
