@@ -384,7 +384,6 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
     </a>
 </h2>
 
-
 <div class="gallery-container" id="gallery"></div>
 
 <div class="progress-container-img">
@@ -403,12 +402,41 @@ Hi, I am a first-year M.Sc. student of the [Monash University](https://www.monas
         gallery.appendChild(img);
     }
 
+    // 自动滚动变量
+    let isScrolling = true; // 初始自动滚动
+    let scrollSpeed = 2; // 滚动速度，单位 px
+
+    // 自动滚动函数
+    function autoScroll() {
+        if (isScrolling) {
+            gallery.scrollLeft += scrollSpeed;
+            // 如果到达最右端，停止滚动
+            if (gallery.scrollLeft >= gallery.scrollWidth - gallery.clientWidth) {
+                isScrolling = false;
+            }
+        }
+        requestAnimationFrame(autoScroll);
+    }
+
+    // 启动自动滚动
+    autoScroll();
+
     // 更新进度条
     gallery.addEventListener('scroll', () => {
         const scrollLeft = gallery.scrollLeft; // 当前滚动的距离
         const maxScrollLeft = gallery.scrollWidth - gallery.clientWidth; // 最大滚动距离
         const scrollPercentage = (scrollLeft / maxScrollLeft) * 100; // 计算滚动百分比
         progressBar.style.width = `${scrollPercentage}%`; // 设置进度条宽度
+    });
+
+    // 当鼠标悬停时停止自动滚动
+    gallery.addEventListener('mouseenter', () => {
+        isScrolling = false;
+    });
+
+    // 当鼠标移开时恢复自动滚动
+    gallery.addEventListener('mouseleave', () => {
+        isScrolling = true;
     });
 </script>
 -------------------------------------------------------------------------------------------
